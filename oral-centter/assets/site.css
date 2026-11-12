@@ -408,7 +408,7 @@ h2 { font: 700 clamp(44px, 5.4vw, 80px)/.92 var(--num); text-transform: uppercas
 .thumb.tipo { background: var(--cobalto); display: grid; align-items: end; padding: 14px; }
 .thumb.tipo::after { display: none; }
 .thumb.tipo .num { background: rgba(255,255,255,.16); color: #fff; }
-.tipo-txt { font: 700 clamp(44px, 4.4vw, 72px)/.85 var(--num); text-transform: uppercase; color: #fff; transition: transform .7s var(--ease); transform-origin: left bottom; }
+.tipo-txt { font: 700 clamp(44px, 4.4vw, 72px)/1 var(--num); padding-bottom: .12em; text-transform: uppercase; color: #fff; transition: transform .7s var(--ease); transform-origin: left bottom; }
 .card:nth-child(5) .thumb.tipo { background: var(--marinho); }
 @media (hover: hover) { .card:hover .tipo-txt { transform: scale(1.06); } }
 .scene-foto { padding: 0; }
